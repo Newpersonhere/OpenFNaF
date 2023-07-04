@@ -32,9 +32,9 @@
 #define FRAMES_PER_SECOND       60
 #endif
 
-// PSP: Limit to 30 FPS
+// PSP: Limit to 60 FPS
 #ifdef PSP
-#define FRAMES_PER_SECOND       30
+#define FRAMES_PER_SECOND       60
 #endif
 
 boolean     Game_Running = FALSE;
